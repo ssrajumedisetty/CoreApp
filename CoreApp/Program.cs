@@ -1,2 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using CoreApp.Features;
+
+var recordSample = new RecordSample();
+recordSample.Run();
+
+Console.ReadLine();
